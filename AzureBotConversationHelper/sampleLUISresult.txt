@@ -1,0 +1,29 @@
+﻿{
+  "query": "azure news",
+  "intents": [
+    {
+      "intent": "$FIND_NEWS",
+      "score": 1.0,
+      "actions": null
+    },
+    {
+      "intent": "None",
+      "score": 0.0741933063,
+      "actions": null
+    },
+    {
+      "intent": "$FIND_UPDATES",
+      "score": 1.47097445E-08,
+      "actions": null
+    }
+  ],
+  "entities": [
+    {
+      "entity": "azure",
+      "type": "$SERVICE_NAME",
+      "startIndex": 0,
+      "endIndex": 4,
+      "score": 0.6189133
+    }
+  ]
+}
