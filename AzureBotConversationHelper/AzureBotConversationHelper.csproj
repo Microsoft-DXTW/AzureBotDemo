@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Actions\ActionFactory.cs" />
-    <Compile Include="Actions\EchoAction.cs" />
+    <Compile Include="Actions\IMPL\EchoAction.cs" />
     <Compile Include="Actions\IAction.cs" />
     <Compile Include="Actions\IMPL\FIND_NEWS_Action.cs" />
     <Compile Include="Actions\IMPL\FIND_UPDATES_ACTION.cs" />

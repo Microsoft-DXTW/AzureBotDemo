@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AzureBotConversationHelper.Actions
+namespace AzureBotConversationHelper.Actions.IMPL
 {
     public class EchoAction : IAction
     {
