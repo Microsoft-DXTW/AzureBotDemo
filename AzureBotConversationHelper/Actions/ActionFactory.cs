@@ -12,7 +12,7 @@ namespace AzureBotConversationHelper.Actions
 {
     public class ActionFactory
     {
-        private static string url = "https://api.projectoxford.ai/luis/v1/application?id=decdd292-13cc-4efb-bb8e-4cc5a4d6f11b&subscription-key=74e66a7b03ad4cd1ab1ee04b90734eea&q={0}";
+        private static string url = "https://api.projectoxford.ai/luis/v1/application?id={id}&subscription-key={key}&q={0}";
         private static LUISResults ParseResult(string result)
         {
             if (!string.IsNullOrEmpty(result))
